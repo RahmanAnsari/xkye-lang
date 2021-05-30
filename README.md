@@ -26,7 +26,7 @@ Hello, World!
 ```
 
 ## Format
-Further details regarding syntax and structure of xkye language is explained in the wiki docs.
+Further details regarding syntax and structure of xkye language is explained in xkye's wiki docs.
 - [Entity]()
 - [value]()
 - [Pair]()
@@ -71,4 +71,4 @@ If you are not familiar with making a pull request using GitHub and/or git, plea
 This project and everyone participating in it will be governed by the [Xky Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to my email.
 
 ## Legal
-Xkye is copyrighted open-source software that is released under the MIT License. For details on the license, see the [LICENSE](https://github.com/RahmanAnsari/xkye-lang/blob/main/LICENSE) file.
+Xkye is open-source language specification that is released under the MIT License. For details on the license, see the [LICENSE](https://github.com/RahmanAnsari/xkye-lang/blob/main/LICENSE) file.
