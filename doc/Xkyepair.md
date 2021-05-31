@@ -9,7 +9,7 @@ Please find the Xkye pair example below
 ## Entity
 An entity is a case sensitive alphanumerical string which precedes with @ symbol.
 
-### Rules
+### Entity Rules
 
 - No length constraints
 - Entity string can contain alphanumerical characters only
@@ -17,6 +17,9 @@ An entity is a case sensitive alphanumerical string which precedes with @ symbol
 - No special characters are allowed except underscore '_'
 - Entity string is case sensitive and it can accept only lowercase characters
 
+```sh
+@db_ip  192.168.56.101
+```
 
 ## Value
 An value can be a one of the allowed variable string as listed Below
@@ -31,6 +34,6 @@ An value can be a one of the allowed variable string as listed Below
 
 ## Xkye Pair
 
-Valid syntax of Xkye pairs are given below. Different ways of getting output in Xkye is explained in [Fetch]()
+Valid syntax of Xkye pairs are given below. Different ways of getting output in Xkye is explained in [Fetch](doc/Fetch.md)
 
 ![Valid Xkye Pair](../images/validxkyepair.png)

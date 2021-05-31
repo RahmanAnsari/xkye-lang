@@ -10,19 +10,49 @@ Dynamic clutches are group of pairs under a same hood, which cannot be reused.
 
 ![Dynamic Clutch](../images/dynamicclutch.png)
 
+
+```sh
+
+[[clutch_name]]
+#....
+#key values pairs
+
+```
+
 ### Pre declared clutches
 Xkye lets you have the ability to have multiple version of same clutches for different usages. But these pre declared clutches must be declared before assigning it.
 
-In the above examples, two databases are configured for connection. Since both the databases are having same username and password, it will automatically called when we call the user name of the second database definition. Please use [Fetch]() document for ways to get the values of the corresponding keys.
+```sh
+
+[[clutch_name]](2)
+
+[[clutch_name]]
+#....
+#key values pairs
+
+
+[[clutch_name][2]]
+#....
+#key values pairs
+
+```
+
+In the above examples, two databases are configured for connection. Since both the databases are having same username and password, it will automatically called when we call the user name of the second database definition. Please use [Fetch](doc/Fetch.md) document for ways to get the values of the corresponding keys.
 
 ![Pre Shared Clutch](../images/predeclaredclutch.png)
 
 
 ### Sub clutches
-Sub clutches are nothing but clutches which are used to group the clutch itself. Sub clutch inherits all the properties of the pre declared clutches. If two clutches inside the same sub clutch having a same entity values pairs, values of the second entity will be used.
+Sub clutches are nothing but clutches which are used to group the clutch itself. Sub clutch inherits all the properties of the pre declared clutches. If two clutches inside the same sub clutch having a same entity values pairs, values of the second entity will be used. all the clutches grouped under the subclutch must be already defined
+
+```sh
+[[subclutch_name]]
+[clutch_name]
+[clutch_name](2)
+```
 
 
-![Pre Shared Clutch](../images/clutch.png)
+![Sub Clutch](../images/clutch.png)
 
 ### Rules
 
