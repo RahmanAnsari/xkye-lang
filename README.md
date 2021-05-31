@@ -15,6 +15,78 @@ Xkye was created as an extended version of ***.ini*** format with more flexibili
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)
 
+## Build environment requirements
+
+Xkye is built using antlr4, so in order to build Xkye lexer and parser for various languages you need to have Java environment installed.
+
+### Java version verification
+
+#### To make sure you have Java installed. Check it with
+
+<br />
+
+```sh
+java -version
+```
+
+### Antlr4 Installtion
+
+We can install antlr4 using any of the following methods:
+
+#### Using the package manager
+
+Modern Linux distros already include a package for ANTLR
+
+```sh
+sudo apt-get install antlr4
+```
+
+#### Getting the Jar files
+
+```sh
+# Download antlr4 jar file to /usr/local/lib
+cd /usr/local/lib
+sudo wget http://www.antlr.org/download/antlr-4.9-complete.jar
+```
+
+You will also need to create a command file that will ease the call to Antlr4. Edit a file named antlr4 and write into it:
+
+```sh
+export CLASSPATH=".:/usr/local/lib/antlr-4.9-complete.jar:$CLASSPATH"
+alias antlr4='java -jar /home/rahi/Desktop/entityx/antlr-4.9-complete.jar'
+alias grun='java org.antlr.v4.gui.TestRig'
+```
+
+save the file, and give it execution permission:
+
+```sh
+chmod +x antlr4
+```
+
+finally, move it to a folder in the default PATH
+
+```sh
+sudo mv antlr4 /usr/local/bin
+```
+
+For the complete instruction about the installation of above mentioned packages for other operating system, please find the official documentation of [java](https://www.java.com/en/download/) and [antlr4](https://www.antlr.org/) here.
+
+## Building
+
+You can generate the parsers and lexers for our xkye.g4 file using the below command,
+
+```sh
+antlr4 Xkye.g4
+```
+
+You can then use the below command to test each component in xkye language
+
+```sh
+grun xkye <component name> -tree
+```
+
+For more details, kindly check the official antlr documentation
+
 ## Getting Started
 A basic **Hello, World!** program in xkye language can be expressed concisely in just one or two lines as below:
 
