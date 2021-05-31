@@ -4,7 +4,7 @@ The basic structure of a Xkye pair consists of an entity and a value assigned to
 
 Please find the Xkye pair example below
 
-![Xkye Pair](images/xkyepair.png)
+![Xkye Pair](../images/xkyepair.png)
 
 ## Entity
 An entity is a case sensitive alphanumerical string which precedes with @ symbol.
@@ -33,4 +33,4 @@ An value can be a one of the allowed variable string as listed Below
 
 Valid syntax of Xkye pairs are given below.
 
-![Valid Xkye Pair](images/validxkyepair.png)
+![Valid Xkye Pair](../images/validxkyepair.png)

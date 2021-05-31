@@ -107,7 +107,7 @@ Hello, World!
 
 ## Format
 Further details regarding syntax and structure of xkye language is explained in xkye's wiki docs.
-- [Pair](examples/xkyepair.xky)
+- [Pair](doc/Xkyepair.md)
 - [Comment]()
 - [Clutch]()
 - [Clutch Span]()
