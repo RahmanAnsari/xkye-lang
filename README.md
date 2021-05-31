@@ -1,6 +1,6 @@
 # Xkye Language
 
-<p align="center"> 
+<p align="center">
 <a href="xky logo"><img src="images/logo.png" align="center" height="200" width="200" ></a>
 </p>
 
@@ -39,7 +39,7 @@ Further details regarding syntax and structure of xkye language is explained in 
 
 
 ## Status
-***Xkye*** is currently in its 1st major version, I will try to semi-regularly introduces breaking changes. These changes will be usually fairly easy to adapt to. The up-to-date grammer file [xkye.g4](Xkye.g4) is included in this repository. You can use this file to generate the lexers and parsers for various languages using antlr4. 
+***Xkye*** is currently in its 1st major version, I will try to semi-regularly introduces breaking changes. These changes will be usually fairly easy to adapt to. The up-to-date grammer file [xkye.g4](Xkye.g4) is included in this repository. You can use this file to generate the lexers and parsers for various languages using antlr4.
 
 ## Demo
 Below is the basic syntax of the complete demo.xye file with all its components,
@@ -56,14 +56,14 @@ value
 You can easily copy paste the code using the [Demo.xky](examples/demo.xky) file included in the repository
 
 ## Applications using Xkye
-Currently various applications using xkye in the contexts of configuration are in development phases, one of such is [GrubChirp](https://github.com/grubchirp) 
+Currently various applications using xkye in the contexts of configuration are in development phases, one of such is [GrubChirp](https://github.com/grubchirp)
 
 ## Upcoming features for V2.0
 - Inclusion of import statement for multi file support
 - Addition of escape character for better string manipulation
 
 ## Contributing
-We welcome all contributions to Xkye regardless of how small or large they are. Everything from spelling fixes to new feature to be included in the structure and syntax are welcomed and appreciated. 
+We welcome all contributions to Xkye regardless of how small or large they are. Everything from spelling fixes to new feature to be included in the structure and syntax are welcomed and appreciated. You can find our [Contributing Guidelines](https://github.com/RahmanAnsari/xkye-lang/tree/master/CONTRIBUTING.md) here.
 
 If you are not familiar with making a pull request using GitHub and/or git, please read [this guide](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). If you're looking for ways to contribute, please look at our [issue tracker](https://github.com/RahmanAnsari/xkye-lang/issues).
 
@@ -76,5 +76,3 @@ Xkye is open-source language specification that is released under the MIT Licens
 ---
 
 ![Made with love from India](https://madewithlove.now.sh/in?heart=true&template=for-the-badge)
-
-
