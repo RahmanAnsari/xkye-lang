@@ -1,0 +1,8 @@
+# xkyepair.xky
+
+@string_entity		'string value'
+@integer_entity		10
+@float_entity		3.141
+@bool_entity		TRUE
+@ip_entity			192.168.56.1
+@subnet_entity		172.16.4.127 /26

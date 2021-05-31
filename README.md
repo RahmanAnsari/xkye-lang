@@ -4,9 +4,9 @@
 <a href="xky logo"><img src="images/logo.png" align="center" height="200" width="200" ></a>
 </p>
 
-**Xkye** (pronounced: **/skaɪ/**) is an Open source, minimal, keyword less configuration file language that consists of text-based content with a structure and syntax comprising majorly key-value pairs. Thus the name **Xkye** is the anagram of the word **key-x** denoting keys which can have any values. These files can be used to store and retrieve individual or group of configuration settings for any application development. The **Xkye** file will go generally with the file extention **.xye**.
+**Xkye** (pronounced: **/skaɪ/**) is an Open source, minimal, keyword less configuration file language that consists of text-based content with a structure and syntax comprising majorly key-value pairs. Thus the name **Xkye** is the anagram of the word **key-x** denoting keys which can have any values. These files can be used to store and retrieve individual or group of configuration settings for any application development. The **Xkye** file will go generally with the file extension **.xye**.
 
-Xkye was created as an extended version of ***.ini*** format with more flexibility over reusing the ***entities*** and the group of entities called ***clutches***.
+Xkye was created as an extended version of ***.ini*** format with more flexibility over reusing the ***entities*** and the group of entities called ***clutches***. You can use any IDE or text editor to open this file.
 
 </br>
 
@@ -14,6 +14,14 @@ Xkye was created as an extended version of ***.ini*** format with more flexibili
 [![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)
+
+
+## Xkye file extension rules
+- Xkye files extension is .xky by default
+- File supports UTF-8 encoding format
+- Supports whitespaces, tabs and newlines ascii code
+- MIME Format type - text/plain
+
 
 ## Build environment requirements
 
@@ -29,7 +37,7 @@ Xkye is built using antlr4, so in order to build Xkye lexer and parser for vario
 java -version
 ```
 
-### Antlr4 Installtion
+### Antlr4 Installation
 
 We can install antlr4 using any of the following methods:
 
@@ -85,7 +93,7 @@ You can then use the below command to test each component in xkye language
 grun xkye <component name> -tree
 ```
 
-For more details, kindly check the official antlr documentation
+For more details, kindly check the official antlr4 documentation
 
 ## Getting Started
 A basic **Hello, World!** program in xkye language can be expressed concisely in just one or two lines as below:
@@ -99,9 +107,7 @@ Hello, World!
 
 ## Format
 Further details regarding syntax and structure of xkye language is explained in xkye's wiki docs.
-- [Entity]()
-- [value]()
-- [Pair]()
+- [Pair](examples/xkyepair.xky)
 - [Comment]()
 - [Clutch]()
 - [Clutch Span]()
@@ -111,7 +117,7 @@ Further details regarding syntax and structure of xkye language is explained in 
 
 
 ## Status
-***Xkye*** is currently in its 1st major version, I will try to semi-regularly introduces breaking changes. These changes will be usually fairly easy to adapt to. The up-to-date grammer file [xkye.g4](Xkye.g4) is included in this repository. You can use this file to generate the lexers and parsers for various languages using antlr4.
+***Xkye*** is currently in its 1st major version, I will try to semi-regularly introduces breaking changes. These changes will be usually fairly easy to adapt to. The up-to-date grammar file [xkye.g4](Xkye.g4) is included in this repository. You can use this file to generate the lexers and parsers for various languages using antlr4.
 
 ## Demo
 Below is the basic syntax of the complete demo.xye file with all its components,
@@ -119,6 +125,7 @@ Below is the basic syntax of the complete demo.xye file with all its components,
 ![Demo File](images/demo.png)
 
 The output of the above script will be
+
 ```sh
 value
 127.0.0.1
@@ -130,9 +137,11 @@ You can easily copy paste the code using the [Demo.xky](examples/demo.xky) file 
 ## Applications using Xkye
 Currently various applications using xkye in the contexts of configuration are in development phases, one of such is [GrubChirp](https://github.com/grubchirp)
 
-## Upcoming features for V2.0
+## Upcoming features on or before V2.0
+- Ability to add IPV6 address
 - Inclusion of import statement for multi file support
 - Addition of escape character for better string manipulation
+
 
 ## Contributing
 We welcome all contributions to Xkye regardless of how small or large they are. Everything from spelling fixes to new feature to be included in the structure and syntax are welcomed and appreciated. You can find our [Contributing Guidelines](https://github.com/RahmanAnsari/xkye-lang/tree/master/CONTRIBUTING.md) here.
