@@ -111,7 +111,7 @@ Further details regarding syntax and structure of xkye language is explained in 
 - [Comment](doc/Comment.md)
 - [Clutch](doc/Clutch.md)
 - [Globe](doc/Globe.md)
-- [Fetch]()
+- [Fetch](doc/Fetch.md)
 
 
 ## Status
