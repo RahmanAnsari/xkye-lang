@@ -4,7 +4,7 @@
 <a href="xky logo"><img src="images/logo.png" align="center" height="200" width="200" ></a>
 </p>
 
-**Xkye** (pronounced: **/skaɪ/**) is an Open source, minimal, keyword less configuration file language that consists of text-based content with a structure and syntax comprising majorly key-value pairs. Thus the name **Xkye** is the anagram of the word **key-x** denoting keys which can have any values. These files can be used to store and retrieve individual or group of configuration settings for any application development. The **Xkye** file will go generally with the file extension **.xye**.
+**Xkye** (pronounced: **/skaɪ/**) is an Open source, minimal, keyword less configuration file language that consists of text-based content with a structure and syntax comprising majorly key-value pairs. Thus the name **Xkye** is the anagram of the word **key-x** denoting keys which can have any values. These files can be used to store and retrieve individual or group of configuration settings for any application development. The **Xkye** file will go generally with the file extension **.xye**. Xkye is a keyword less language we can use any identifier names except ***[global]()***
 
 Xkye was created as an extended version of ***.ini*** format with more flexibility over reusing the ***entities*** and the group of entities called ***clutches***. You can use any IDE or text editor to open this file.
 
@@ -108,7 +108,7 @@ Hello, World!
 ## Format
 Further details regarding syntax and structure of xkye language is explained in xkye's wiki docs.
 - [Pair](doc/Xkyepair.md)
-- [Comment]()
+- [Comment](doc/Comment.md)
 - [Clutch]()
 - [Clutch Span]()
 - [Sub Clutch]()

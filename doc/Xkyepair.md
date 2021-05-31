@@ -31,6 +31,6 @@ An value can be a one of the allowed variable string as listed Below
 
 ## Xkye Pair
 
-Valid syntax of Xkye pairs are given below.
+Valid syntax of Xkye pairs are given below. Different ways of getting output in Xkye is explained in [Fetch]()
 
 ![Valid Xkye Pair](../images/validxkyepair.png)
