@@ -15,7 +15,7 @@ Xkye was created as an extended version of ***.ini*** format with more flexibili
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)
 
-## Hello, World!
+## Getting Started
 A basic **Hello, World!** program in xkye language can be expressed concisely in just one or two lines as below:
 
 ![Hello, World!](images/helloworld.png)
@@ -68,7 +68,13 @@ We welcome all contributions to Xkye regardless of how small or large they are. 
 If you are not familiar with making a pull request using GitHub and/or git, please read [this guide](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). If you're looking for ways to contribute, please look at our [issue tracker](https://github.com/RahmanAnsari/xkye-lang/issues).
 
 ## Code of conduct
-This project and everyone participating in it will be governed by the [Xky Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to my email.
+This project and everyone participating in it will be governed by the [Xkye Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to my email.
 
 ## Legal
 Xkye is open-source language specification that is released under the MIT License. For details on the license, see the [LICENSE](https://github.com/RahmanAnsari/xkye-lang/blob/main/LICENSE) file.
+
+---
+
+![Made with love from India](https://madewithlove.now.sh/in?heart=true&template=for-the-badge)
+
+
