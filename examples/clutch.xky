@@ -1,0 +1,26 @@
+#Shared / Declared / Sub Clutch
+
+#Clutch span set definition
+[[database]](3)
+
+
+#Clutch definition
+[[database]]		#Default Clutch definition
+@db_ip				192.168.56.101
+@db_user			'admin'
+@db_pass			'admin'
+@db_name			'postgres'
+
+[[database][2]]		#Clutch definition for second set
+@db_ip				192.168.56.102
+@db_name			'mysql'
+
+
+[[database][2]]		#Clutch definition for second set
+@db_ip				192.168.56.103
+@db_name			'redis'
+
+
+[[subgroup]]		#Sub Clutch definition
+[database]
+[database][3]

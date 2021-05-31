@@ -109,9 +109,7 @@ Hello, World!
 Further details regarding syntax and structure of xkye language is explained in xkye's wiki docs.
 - [Pair](doc/Xkyepair.md)
 - [Comment](doc/Comment.md)
-- [Clutch]()
-- [Clutch Span]()
-- [Sub Clutch]()
+- [Clutch](doc/Clutch.md)
 - [Globe]()
 - [Fetch]()
 
