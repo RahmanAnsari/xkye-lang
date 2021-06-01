@@ -22,6 +22,17 @@ Xkye was created as an extended version of ***.ini*** format with more flexibili
 - Supports whitespaces, tabs and newlines ascii code
 - MIME Format type - text/plain
 
+<br />
+
+## Standard Library list
+Work in progress
+
+<br />
+
+## Syntax Highlighting Scripts
+Work in progress
+
+<br />
 
 ## Build environment requirements
 
@@ -84,13 +95,15 @@ For the complete instruction about the installation of above mentioned packages 
 You can generate the parsers and lexers for our xkye.g4 file using the below command,
 
 ```sh
+git clone https://github.com/RahmanAnsari/xkye-lang.git 
+
 antlr4 Xkye.g4
 ```
 
 You can then use the below command to test each component in xkye language
 
 ```sh
-grun xkye <component name> -tree
+grun Xkye <component name> -tree
 ```
 
 For more details, kindly check the official antlr4 documentation
@@ -132,19 +145,34 @@ value
 
 You can easily copy paste the code using the [Demo.xky](examples/demo.xky) file included in the repository
 
-## Applications using Xkye
+## Xkye in action
 Currently various applications using xkye in the contexts of configuration are in development phases, one of such is [GrubChirp](https://github.com/grubchirp)
 
-## Upcoming features on or before V2.0
-- Ability to add IPV6 address
-- Inclusion of import statement for multi file support
-- Addition of escape character for better string manipulation
+## Advantages of Xkye file
+- It is human readable for simple configuration and settings
+- Supports Comments
+- Maintainable
+- Read and write capabilities
+- Content of this files looks like windows init & Ini file format
 
+## Disadvantages
+- Numbers like NAN and infinity are not supported
+- No support for binary data
+- Complex values ike table are not supported
+
+## XKYE use cases
+- Xkye can be used in many type of projects for configuration settings
+- Configuration and settings of the software applications
 
 ## Contributing
 We welcome all contributions to Xkye regardless of how small or large they are. Everything from spelling fixes to new feature to be included in the structure and syntax are welcomed and appreciated. You can find our [Contributing Guidelines](https://github.com/RahmanAnsari/xkye-lang/tree/master/CONTRIBUTING.md) here.
 
 If you are not familiar with making a pull request using GitHub and/or git, please read [this guide](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). If you're looking for ways to contribute, please look at our [issue tracker](https://github.com/RahmanAnsari/xkye-lang/issues).
+
+## Upcoming features on or before V2.0
+- Ability to add IPV6 address
+- Inclusion of import statement for multi file support
+- Addition of escape character for better string manipulation
 
 ## Code of conduct
 This project and everyone participating in it will be governed by the [Xkye Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to my email.
