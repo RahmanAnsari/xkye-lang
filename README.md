@@ -128,7 +128,7 @@ Further details regarding syntax and structure of xkye language is explained in 
 
 
 ## Status
-***Xkye*** is currently in its 1st major version, I will try to semi-regularly introduces breaking changes. These changes will be usually fairly easy to adapt to. The up-to-date grammar file [xkye.g4](Xkye.g4) is included in this repository. You can use this file to generate the lexers and parsers for various languages using antlr4.
+***Xkye*** is currently in its 1<sup>st</sup> major version, I will try to semi-regularly introduces breaking changes. These changes will be usually fairly easy to adapt to. The up-to-date grammar file [xkye.g4](Xkye.g4) is included in this repository. You can use this file to generate the lexers and parsers for various languages using antlr4.
 
 ## Demo
 Below is the basic syntax of the complete demo.xye file with all its components,
@@ -169,10 +169,10 @@ We welcome all contributions to Xkye regardless of how small or large they are. 
 
 If you are not familiar with making a pull request using GitHub and/or git, please read [this guide](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). If you're looking for ways to contribute, please look at our [issue tracker](https://github.com/RahmanAnsari/xkye-lang/issues).
 
-## Upcoming features on or before V2.0
-- Ability to add IPV6 address
-- Inclusion of import statement for multi file support
-- Addition of escape character for better string manipulation
+## Upcoming features on or before v2.0.0
+- [ ] Ability to add IPV6 address
+- [ ] Inclusion of import statement for multi file support
+- [ ] Addition of escape character for better string manipulation
 
 ## Code of conduct
 This project and everyone participating in it will be governed by the [Xkye Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to my email.
