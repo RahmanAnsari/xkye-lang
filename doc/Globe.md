@@ -1,5 +1,5 @@
 # Globe
-Globe is the universal clutch and the only reserved keyword in Xkye language. everything between a globe clutch and the next user defined clutch will be under clutched under globe. Global clutch can be defined only at the start of the document.
+Globe is the universal clutch and the only reserved keyword in Xkye language. everything between a globe clutch and the next user defined clutch will be clutched under globe. Global clutch can be defined only at the start of the document.
 
 ```sh
 [[global]]
