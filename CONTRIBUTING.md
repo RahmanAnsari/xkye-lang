@@ -1,6 +1,6 @@
 # Notes for Xkye Contributors
 
-Hi! If you are new to the Xkye community: welcome, and thanks for trying XKye. Please be sure to respect our [community standards](https://github.com/RahmanAnsari/xkye-lang/tree/master/CODE_OF_CONDUCT.md) in all interactions.
+Hi! If you are new to the Xkye community: welcome, and thanks for trying Xkye. Please be sure to respect our [community standards](https://github.com/RahmanAnsari/xkye-lang/tree/master/CODE_OF_CONDUCT.md) in all interactions.
 
 
 ## Before filing an issue

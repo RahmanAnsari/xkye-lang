@@ -186,4 +186,10 @@ Xkye is open-source language specification that is released under the MIT Licens
 
 ---
 
+If you like this library, help me to develop it by buying a cup of coffee
+
+<a href="https://www.buymeacoffee.com/rahmanansari" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" align="center"  alt="Buy Me A Coffee" height="41" width="174"></a>
+
+</br>
+
 ![Made with love from India](https://madewithlove.now.sh/in?heart=true&template=for-the-badge)
