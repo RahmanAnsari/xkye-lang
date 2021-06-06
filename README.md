@@ -24,6 +24,10 @@ Xkye was created as an extended version of ***.ini*** format with more flexibili
 
 <br />
 
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&labelColor=000000)
+
+<br />
+
 ## Standard Library list
 Work in progress
 
