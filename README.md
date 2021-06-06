@@ -29,7 +29,7 @@ Xkye was created as an extended version of ***.ini*** format with more flexibili
 <br />
 
 ## Standard Library list
-Work in progress
+- [xkye_python](https://github.com/RahmanAnsari/xkye_python) standard python library for xkye language
 
 <br />
 
