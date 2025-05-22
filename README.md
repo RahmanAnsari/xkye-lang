@@ -76,7 +76,7 @@ You will also need to create a command file that will ease the call to Antlr4. E
 
 ```sh
 export CLASSPATH=".:/usr/local/lib/antlr-4.9-complete.jar:$CLASSPATH"
-alias antlr4='java -jar /home/rahi/Desktop/entityx/antlr-4.9-complete.jar'
+alias antlr4='java -jar ~/Desktop/entityx/antlr-4.9-complete.jar'
 alias grun='java org.antlr.v4.gui.TestRig'
 ```
 
